@@ -63,3 +63,12 @@ npm install
 - `GET /api/notes` - Get user notes (Protected)
 - `POST /api/notes` - Create a note (Protected)
 - `GET /api/users` - Get all users (Admin only)
+
+
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/582652ac-6285-4d80-9093-4732cb88db65" />
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/24934499-8ef3-4cdb-973a-56e5a02b6913" />
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/d09a17b9-c3ad-4eab-b927-8f4ac1ee7501" />
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/1bf9aaf9-34f0-40e5-8bee-76dbaa4b5568" />
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/36594c95-afaa-4780-b1b3-83bf470b06fa" />
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/6e8d7465-c3a5-4461-ac3a-97bebf10f84a" />
+
