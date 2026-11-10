@@ -10,22 +10,42 @@
       max-width: 900px;
       margin: 20px auto;
       padding: 0 12px;
+      background: #7ca7d8;
     }
 
     section {
-      border: 1px solid #ddd;
+      border: 3px solid #ffffff;
       border-radius: 10px;
       padding: 14px;
-      margin-bottom: 18px;
+      margin-bottom: 40px;
+      box-shadow: 13px 24px 50px rgba(0, 0, 0, 0.45);
     }
 
     input,
-    button {
-      padding: 9px;
-      margin: 5px 5px 5px 0;
-      border-radius: 6px;
-      border: 1px solid #ccc;
-    }
+
+button {
+  padding: 9px;
+  margin: 5px 5px 5px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+input {
+  background: #5052c6;
+  border: 1px solid #698fbe;
+  color: #000000;
+  outline: none;
+}
+
+input::placeholder {
+  color: #e2e4e6;
+}
+
+input:focus {
+  background: #ffffff;
+  border-color: #111;
+  box-shadow: 0 0 0 3px rgba(17, 17, 17, 0.15);
+}
 
     button {
       cursor: pointer;
