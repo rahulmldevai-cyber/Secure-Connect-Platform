@@ -65,7 +65,7 @@ npm install
 - `GET /api/users` - Get all users (Admin only)
 
 
-<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/582652ac-6285-4d80-9093-4732cb88db65" />
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/ec2078ed-fabd-4318-864c-f0aa0bf7dfd3" />
 
 <img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/24934499-8ef3-4cdb-973a-56e5a02b6913" />
 
