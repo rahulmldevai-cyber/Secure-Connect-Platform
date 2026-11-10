@@ -20,6 +20,29 @@ A secure, real-time backend application built to demonstrates core backend secur
 - **Real-Time:** `Socket.IO`
 - **Config:** `dotenv`
 
+## 📂 Project Structure
+The codebase follows a clean, modular architecture to ensure maintainability and separation of concerns:
+
+```text
+secure-connect-platform/
+├── src/
+│   ├── config/          # Database and environment configurations
+│   ├── controllers/     # Request handling logic
+│   ├── events/          # EventEmitter bus and listeners
+│   ├── middleware/      # Auth, RBAC, CORS, and Error handling
+│   ├── models/          # MongoDB collection schemas/logic
+│   ├── routes/          # Express API routes
+│   ├── services/        # Business logic (Password, Token)
+│   ├── sockets/         # Socket.IO event handlers
+│   ├── utils/           # Helper functions and custom classes
+│   ├── app.js           # Express app initialization
+│   └── server.js        # Server entry point
+├── public/              # Frontend demo files
+├── scripts/             # Database seeding scripts
+├── .env.example         # Environment variable template
+└── package.json         # Dependencies and scripts
+```
+
 ### 1. Prerequisites
 Make sure you have the following installed:
 - [Node.js](https://nodejs.org/) (v18 or higher)
@@ -32,13 +55,7 @@ Make sure you have the following installed:
 git clone <your-repository-url>
 cd secure-connect-platform
 npm install
-
-## Setup Instructions
-1. Clone the repository: `git clone <your-repo-url>`
-2. Install dependencies: `npm install`
-3. Create a `.env` file based on `.env.example` and add your `JWT_SECRET` and `MONGO_URI`.
-4. Seed the admin user: `npm run seed:admin`
-5. Start the server: `npm run dev`
+```
 
 ## API Endpoints
 - `POST /api/auth/signup` - Register a new user
